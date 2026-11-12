@@ -52,13 +52,15 @@ Java Full-Stack Developer with 1.6+ years of production experience architecting 
   - Scaled transaction processing to **500 TPS** across **10,000+ daily transactions** with **99.5% accuracy** using paginated batch fetching (500 records/chunk), PostgreSQL column indexing, and custom Kafka retry mechanisms.
   - Developed role-based **React.js approval and financial retail interfaces** that integrated Kafka ERP settlement confirmation events, reducing approval turnaround from 7–10 days to 2–3 days.
 
-### 2. SIM Inventory Management Platform (PYOTA-USIM)
-- **Scope:** Full-Stack (GUI Frontend + Java Backend Microservices)
-- **Tech Stack:** Java, Spring Boot, Microservices, RabbitMQ, MySQL, REST APIs, React.js / JavaScript, HTML5, CSS3
+### 2. BSNL SIM Inventory Management System (PYOTA-USIM)
+- **Scope:** Full-Stack (Modernized React UI + Java Backend Microservices)
+- **Tech Stack:** Java, Spring Boot, Microservices, React.js, MySQL, REST APIs, RabbitMQ, Apache POI (Excel), HTML5, CSS3
 - **Highlights:**
-  - Developed full-stack SIM lifecycle management workflows (**frontend GUI + Spring Boot REST APIs**: `/createImsi`, `/deleteImsi`, `/simswap`) enabling operations teams to execute SIM provisioning, allocation, and cross-circle IMSI swaps.
-  - Implemented strict frontend and backend validation rules for 15-digit IMSI, 12-digit MSISDN, circle ID, and SIM type to block invalid inventory mutations at both the UI and API layers.
-  - Engineered atomic cross-circle SIM swap transactions and asynchronous **RabbitMQ** event processing, maintaining **99.9% inventory consistency** while cutting lookup/update latency by **~35%** via SQL optimization.
+  - Architected and developed the modernized full-stack **BSNL SIM Inventory Management Platform (PYOTA-USIM)** featuring an intuitive **modernized React UI** paired with **Spring Boot REST microservices** (`/createImsi`, `/deleteImsi`, `/simswap`) enabling operations teams to execute digital SIM provisioning, allocation, and cross-circle IMSI swaps.
+  - Implemented an automated **bulk Excel upload and ingestion pipeline** (Apache POI) with asynchronous batch parsing and strict row-level validation (15-digit IMSI, 12-digit MSISDN, circle ID, SIM type) to block invalid inventory mutations prior to persistence.
+  - Designed an interactive **graphical analytics dashboard** in React.js for real-time visualization of SIM inventory metrics, stock quotas per circle/SSA, allocated vs. available pools, and IMSI pairing status.
+  - Engineered multi-level **MSC approval gating workflows** for high-value VIP numbers and 2G/3G-to-4G SIM upgrade requests, enforcing role-based authorization to eliminate unauthorized stock reallocation.
+  - Engineered atomic cross-circle SIM swap transactions and asynchronous **RabbitMQ** event processing, maintaining **99.9% inventory consistency** while cutting lookup/update latency by **~35%** via SQL query optimization.
 
 ### 3. Centralized VAS Provisioning System (CVPS) & Consent Gateway
 - **Scope:** Backend Microservices (Pure Backend)
