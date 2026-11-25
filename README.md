@@ -4,7 +4,7 @@
 
 This repository contains my **portfolio & web resume**, showcasing end-to-end full-stack capabilities, cloud-native containerization, high-throughput microservices architecture, and modern reactive frontends.
 
-🔗 **Live Portfolio Site:** [https://preetham-perika.github.io/hruday-preetham-resume/](https://preetham-perika.github.io/hruday-preetham-resume/)  
+🔗 **Live Portfolio Site:** [https://preetham-perika.github.io/hruday-preetham-portfolio/](https://preetham-perika.github.io/hruday-preetham-portfolio/)  
 📄 **Downloadable Resume (PDF):** [Sri_Hruday_Preetham_Perika_Java_FullStack_2026.pdf](./Sri_Hruday_Preetham_Perika_Java_FullStack_2026.pdf)
 
 ---
@@ -84,4 +84,4 @@ Java Full-Stack Developer with 1.6+ years of production experience architecting 
 - 📧 **Email:** [hrudaypreethamperika@gmail.com](mailto:hrudaypreethamperika@gmail.com)
 - 🔗 **LinkedIn:** [https://www.linkedin.com/in/hrudaypreetham-perika/](https://www.linkedin.com/in/hrudaypreetham-perika/)
 - 💻 **GitHub:** [https://github.com/preetham-perika](https://github.com/preetham-perika)
-- 🌐 **Live Portfolio:** [https://preetham-perika.github.io/hruday-preetham-resume/](https://preetham-perika.github.io/hruday-preetham-resume/)
+- 🌐 **Live Portfolio:** [https://preetham-perika.github.io/hruday-preetham-portfolio/](https://preetham-perika.github.io/hruday-preetham-portfolio/)

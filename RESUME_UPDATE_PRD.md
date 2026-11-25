@@ -15,7 +15,7 @@ The updated portfolio must incorporate modern production architecture details in
 - **Email:** hrudaypreethamperika@gmail.com
 - **LinkedIn Profile URL:** `https://www.linkedin.com/in/hrudaypreetham-perika/` *(Ensure trailing `-perika/` is present everywhere)*
 - **GitHub Profile URL:** `https://github.com/preetham-perika`
-- **Live Portfolio Web Link:** `https://preetham-perika.github.io/hruday-preetham-resume/`
+- **Live Portfolio Web Link:** `https://preetham-perika.github.io/hruday-preetham-portfolio/`
 - **Downloadable Resume File Link:** `./Sri_Hruday_Preetham_Perika_Java_FullStack_2026.pdf` *(Enable HTML `download` attribute on all resume download buttons)*
 
 ---
